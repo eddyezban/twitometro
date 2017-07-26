@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Twitometro</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="action.js"></script>
+    <link rel="shortcut icon" href="logo.ico">
+  </head>
+  <body>
+
+    <video id="fondo" src="Fondo.mp4" autoplay loop muted>
+    </video>
+
+
+    <div class="container">
+
+      <div id="nav" class="row">
+
+        <div class="col-sm-12">
+          <img id="logo" src="logo.png" width="150px" alt="">
+        </div>
+
+      </div>
+
+      <br>
+
+      <div id="description" class="row">
+
+        <div class="col-sm-2">
+
+        </div>
+
+        <div class="col-sm-8" id="info">
+          ¿Alguna vez te haz preguntado que tan agresivo eres en redes sociales? Utiliza nuestro algoritmo para conocer lo que dice tu Twitter de tí o de los demás. Solo escribe tu nombre de usuario y descúbrelo!
+        </div>
+
+        <div class="col-sm-2">
+
+        </div>
+
+      </div>
+
+      <br>
+
+      <div id="buscador" class="row">
+
+        <div class="col-sm-12">
+          <!--
+          <form action="https://twitter.com/search"> -->
+            <br>
+            <label for="search"></label>
+            <input type="text" id="search" name="q" placeholder="     @usuario" value="">
+            <button type="button" name="button" onclick="getRandomArbitrary()">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </button>
+
+        </div>
+
+      </div>
+
+      <br>
+      <br>
+      <br>
+
+      <div id="footer" class="row">
+
+        <div class="col-sm-4">
+          Twitometro 2017 © All rights reserved
+        </div>
+
+        <div class="col-sm-1">
+
+        </div>
+
+        <div id="subrayar" class="col-sm-2">
+          Términos y condiciones
+        </div>
+
+        <div class="col-sm-1">
+
+        </div>
+
+        <div id="subrayar" class="col-sm-2">
+          Política de privacidad
+        </div>
+
+        <div class="col-sm-1">
+
+        </div>
+
+        <div id="subrayar" class="col-sm-2">
+          Bolsa de trabajo
+        </div>
+
+        <div class="col-sm-1">
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.6/sweetalert2.min.js"></script>
+
+    <!-- Include a polyfill for ES6 Promises (optional) for IE11 and Android browser -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script>
+  </body>
+</html>
